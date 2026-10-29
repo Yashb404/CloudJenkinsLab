@@ -1,0 +1,19 @@
+# Build and runtime outputs
+jenkins-lab/downloads/
+jenkins-lab/runtime/
+festpass-java/build/
+festpass-java/data/
+*.tsv.lock
+
+# Logs and secrets
+*.log
+*.tmp
+*secret*
+!ci/BuildEvidence.java
+
+# IDE & OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
